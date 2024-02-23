@@ -1,3 +1,10 @@
+/* #region GENERAL */
+img {
+    max-width: 100%
+}
+
+/* #endregion */
+
 /* #region BACKGROUND */
 .ms-bg-darkblue {
     background-color: #2c3e50;
@@ -16,6 +23,26 @@
 /* #region TYPOGRAPHY */
 .ms-text-acquamarine {
     color: #1abc9c;
+}
+
+/* #endregion */
+
+/* #region MAIN */
+
+/* #region HERO SECTION */
+.hero img {
+    max-width: 50%;
+}
+
+/* #endregion */
+
+/* #endregion */
+
+/* #region RESPONSIVE */
+@media screen and (min-width:992px) {
+    .hero img {
+        max-width: 20%;
+    }
 }
 
 /* #endregion */
