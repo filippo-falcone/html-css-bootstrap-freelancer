@@ -3,6 +3,10 @@ html {
     scroll-padding-top: 10rem;
 }
 
+.star i {
+    transition: transform 1s;
+}
+
 .star::after,
 .star::before {
     content: '';
@@ -75,6 +79,7 @@ html {
     left: 0;
     right: 0;
     opacity: 0;
+    transition: opacity 1s;
 }
 
 /* #endregion */
@@ -102,6 +107,10 @@ html {
 /* #endregion */
 
 /* #region EFFECT */
+.star:hover i {
+    transform: rotate(360deg);
+}
+
 .nav-item:hover .nav-link,
 .social-container:hover i {
     color: #1abc9c;
