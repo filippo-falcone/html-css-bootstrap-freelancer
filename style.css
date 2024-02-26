@@ -1,3 +1,10 @@
+/* #region GENERAL */
+html {
+    scroll-padding-top: 3.25rem;
+}
+
+/* #endregion */
+
 /* #region BACKGROUND */
 .ms-bg-darkblue {
     background-color: #2c3e50;
@@ -18,11 +25,32 @@
     color: #1abc9c;
 }
 
+.ms-text-black {
+    color: #333333;
+}
+
+.ms-text-blue {
+    color: #2c3e50;
+}
+
 /* #endregion */
 
 /* #region HERO SECTION */
 #hero img {
     max-width: 50%;
+}
+
+/* #endregion */
+
+/* #region CONTACT SECTION */
+.form-floating [class*=form-] {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+#message {
+    height: 144px;
 }
 
 /* #endregion */

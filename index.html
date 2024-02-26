@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <header class="text-uppercase">
-        <nav class="navbar navbar-expand-md ms-bg-darkblue sticky-top" data-bs-theme="dark">
+    <header class="text-uppercase sticky-top">
+        <nav class="navbar navbar-expand-md ms-bg-darkblue" data-bs-theme="dark">
             <div class="container-md">
                 <a class="navbar-brand" aria-current="page" href="#">start bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -53,7 +53,7 @@
         <!-- portfolio section -->
         <section class="py-5" id="portfolio">
             <div class="container-lg">
-                <h1 class="text-uppercase text-center">portfolio</h1>
+                <h1 class="text-uppercase text-center ms-text-black">portfolio</h1>
                 <div class="row g-4">
                     <div class="col-12 col-sm-6 col-lg-4">
                         <img src="img/cabin.png" class="img-fluid rounded-3" alt="">
@@ -93,18 +93,51 @@
                         starting point!
                     </div>
                 </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i>
+                        Download</button>
+                </div>
             </div>
         </section>
         <!-- /about section -->
         <!-- contact section -->
         <section class="py-5" id="contact-me">
+            <h1 class="text-uppercase text-center ms-text-black">contact me</h1>
             <div class="container">
-                <h1 class="text-uppercase text-center">contact me</h1>
+                <div class="row">
+                    <div class="col-10 col-md-8 offset-1 offset-md-2">
+                        <div class="form-floating ms-text-blue">
+                            <input type="text" class="form-control" placeholder="Name" id="name"></input>
+                            <label for="name">Name</label>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-8 offset-1 offset-md-2">
+                        <div class="form-floating ms-text-blue">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            <label for="email">Email address</label>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-8 offset-1 offset-md-2">
+                        <div class="form-floating ms-text-blue">
+                            <input type="tel" class="form-control" id="tel" placeholder="+12-123-456-789-0">
+                            <label for="tel">Phone Number</label>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-8 offset-1 offset-md-2">
+                        <div class="form-floating ms-text-blue mb-3">
+                            <textarea class="form-control" placeholder="Leave a message here" id="message"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-8 offset-1 offset-md-2">
+                        <button type="submit" class="btn ms-bg-acquamarine text-white">Send</button>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- /contact section -->
     </main>
-    <footer class="text-white">
+    <footer class=" text-white">
         <div class="ms-bg-blue text-center py-5">
             <div class="container">
                 <div class="row g-4">
