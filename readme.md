@@ -4,7 +4,7 @@ Bootstrap Freelancer
 ## Consegna
 Utilizziamo Bootstrap 5 per ricreare il template responsive Freelancer come da screenshots allegati.
 
-<https://filippo-falcone.github.io/html-css-bootstrap-freelancer/>
+Preview --> <https://filippo-falcone.github.io/html-css-bootstrap-freelancer/>
 
 
 
