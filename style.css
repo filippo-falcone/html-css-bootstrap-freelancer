@@ -73,8 +73,18 @@ html {
 
 /* #endregion */
 
+/* #region FOOTER */
+.social-container {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* #endregion */
+
 /* #region EFFECT */
-.nav-item:hover .nav-link {
+.nav-item:hover .nav-link,
+.social-container:hover i {
     color: #1abc9c;
 }
 
