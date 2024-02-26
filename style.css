@@ -28,7 +28,7 @@
 /* #region MAIN */
 
 /* #region HERO SECTION */
-.hero img {
+#hero img {
     max-width: 50%;
 }
 
@@ -38,7 +38,7 @@
 
 /* #region RESPONSIVE */
 @media screen and (min-width:768px) {
-    .hero img {
+    #hero img {
         max-width: 20%;
     }
 }
