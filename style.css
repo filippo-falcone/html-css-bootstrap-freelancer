@@ -45,6 +45,10 @@ html {
     background-color: #3a546d
 }
 
+.ms-bg-aquamarine-tr {
+    background-color: #1abc9c69;
+}
+
 /* #endregion */
 
 /* #region TYPOGRAPHY */
@@ -58,26 +62,9 @@ html {
 
 /* #endregion */
 
-/* #region HERO SECTION */
-#hero img {
-    max-width: 50%;
-}
-
-/* #endregion */
-
 /* #region PORTFOLIO SECTION */
-.img-hidden {
-    position: relative;
-}
-
 .img-hidden div {
-    background-color: #1abc9c69;
     font-size: 5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     opacity: 0;
     transition: opacity 1s;
 }
@@ -102,12 +89,13 @@ html {
     width: 50px;
     height: 50px;
     line-height: 50px;
+    transition: transform 1s;
 }
 
 /* #endregion */
 
 /* #region EFFECT */
-.star:hover i {
+.star i:hover {
     transform: rotate(360deg);
 }
 
@@ -127,6 +115,10 @@ html {
 #contact-me button[type=submit]:hover {
     background-color: #1abc9c;
     opacity: 0.7;
+}
+
+.social-container:hover {
+    transform: scale(1.1);
 }
 
 /* #endregion */
