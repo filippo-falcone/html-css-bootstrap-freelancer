@@ -42,6 +42,24 @@ html {
 
 /* #endregion */
 
+/* #region PORTFOLIO SECTION */
+.img-hidden {
+    position: relative;
+}
+
+.img-hidden div {
+    background-color: #1abc9c69;
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+/* #endregion */
+
 /* #region CONTACT SECTION */
 .form-floating [class*=form-] {
     border: none;
@@ -55,9 +73,17 @@ html {
 
 /* #endregion */
 
-/* #region HOVER */
+/* #region EFFECT */
 .nav-item:hover .nav-link {
     color: #1abc9c;
+}
+
+.img-hidden:hover div {
+    opacity: 1;
+}
+
+.form-control:focus {
+    box-shadow: none;
 }
 
 button[type=submit]:hover {
