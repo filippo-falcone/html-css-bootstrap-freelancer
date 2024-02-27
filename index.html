@@ -165,22 +165,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-10 offset-1 offset-md-1 offset-lg-1 text-start">
-                        <form>
+                        <form action="">
                             <div class="form-floating ms-text-blue">
-                                <input type="text" class="form-control" placeholder="Name" id="name">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Name">
                                 <label for="name">Name</label>
                             </div>
                             <div class="form-floating ms-text-blue">
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                                <input type="email" name="email" class="form-control" id="email"
+                                    placeholder="name@example.com">
                                 <label for="email">Email address</label>
                             </div>
                             <div class="form-floating ms-text-blue">
-                                <input type="tel" class="form-control" id="tel" placeholder="+12-123-456-789-0">
+                                <input type="tel" name="phone-number" class="form-control" id="tel"
+                                    placeholder="+12-123-456-789-0">
                                 <label for="tel">Phone Number</label>
                             </div>
                             <div class="form-floating ms-text-blue mb-3">
-                                <textarea class="form-control" placeholder="Leave a message here"
-                                    id="message"></textarea>
+                                <textarea name="message" class="form-control" id="message"
+                                    placeholder="Leave a message here"></textarea>
                                 <label for="message">Message</label>
                             </div>
                             <button type="submit" class="btn ms-bg-aquamarine text-white">Send</button>
